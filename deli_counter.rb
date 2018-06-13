@@ -9,6 +9,6 @@ def line(katz_deli)
     else katz_deli.each_with_index do |person, index|
         line = line + " #{index}. #{person}"
         end
-        return line
+        puts line
     end
 end
